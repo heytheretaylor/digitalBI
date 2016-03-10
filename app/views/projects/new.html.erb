@@ -1,0 +1,5 @@
+<%= form_for(@project) do |f| %>
+  <%= f.label :project_name, "Name of Project" %>
+  <%= f.text_field :project_name, autofocus: true %>
+  <%= f.submit "Create!" %>
+<% end %>
